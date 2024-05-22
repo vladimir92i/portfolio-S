@@ -1,0 +1,134 @@
+{# <div class="flex flex-wrap mx-10 ">
+{% for projet in projets %}
+	<div class="grid-cols-4">
+ 		<a href={{"projet-"~loop.index}} >Nom: {{projet.name}} </a>
+		<h1>Date de réalisation: {{projet.realisationDate}} </h1>
+    <img src={{projet.imageSources[0]}} />
+    <p>{{projet.descriptions}}</p>
+</div>
+{% endfor %}
+</div> #}
+{% extends "base.html.twig" %}
+{% block body %}
+    <section class="flex flex-col justify-center items-center pt-6">
+        <b class="border-b-2 border-black text-lg p-4 mt-5 ">Mes compétences</b>
+        <div class="flex flex-col">
+            <div class="flex">
+                <div class="w-28 h-28 bg-gray-300 flex items-center justify-center m-4">
+                    <a href="#patrimoine">Gérer le patrimoine informatique</a>
+                </div>
+                <div class="w-28 h-28 bg-gray-300 flex items-center justify-center m-4">
+                    <a href="#incident">Répondre aux incidents et aux demandes d’assistance et d’évolution</a>
+                </div>
+                <div class="w-28 h-28 bg-gray-300 flex items-center justify-center m-4">
+                    <a href="#presence">Développer la présence en ligne de l’organisation</a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="w-28 h-28 bg-gray-300 flex items-center justify-center m-4">
+                    <a href="#projet">Travailler en mode projet</a>
+                </div>
+                <div class="w-28 h-28 bg-gray-300 flex items-center justify-center m-4">
+                    <a href="#disposition">Mettre à disposition des utilisateurs un service informatique</a>
+                </div>
+                <div class="w-28 h-28 bg-gray-300 flex items-center justify-center m-4">
+                    <a href="#developpement">Organiser son développement professionnel</a>
+                </div>
+            </div>
+        </div>
+        <h1 class="gap-4 mt-12 text-center">Cliquez sur le nom des projets pour avoir plus de détails.</h1>
+        {# <p>Futures implementations : boutons pour voir en quel années les projets ont été fait.</p> #}
+
+        <b class="border-b-2 border-black text-lg p-4 mt-5 " id="patrimoine">Gérer mon patrimoine informatique</b>
+        <section class="flex flex-row justify-center gap-4 pt-6 ">
+            <div class=" basis-2/6">
+                <img class="" src="img/annee1/creation_data_gab_python.png">
+                <p>Gérer les sauvegardes d'une base de données</p>
+                <p>Projet Base de données avec Python</p>
+            </div>
+            <div class="basis-2/6">
+                <img class="" src="img/annee1/recherche_doc_stage.png">
+                <p>Recenser les ressources numériques</p>
+                <p>Stage chez Adeo | 2022/2023</p>
+            </div>
+        </section>
+
+
+        <b class="border-b-2 border-black text-lg p-4 mt-5 "id="incident">Répondre aux incidents et aux demandes d’assistance et
+            d’évolution</b>
+        <section class="flex flex-row flex-wrap justify-center gap-4 pt-6 ">
+            <div class="basis-2/6">
+                <img class="" src="img/annee1/ajout_event_agenda.png">
+                <p>Collecter,suivre et orienter des demandes</p>
+                <p>Projet Agenda</p>
+            </div>
+            <div class="basis-2/6">
+                <img class="" src="img/annee1/pull_request_stage.png">
+                <p>Collecter,suivre et orienter des demandes</p>
+                <p>Stage chez Adeo | 2002/2023</p>
+            </div>
+        </section>
+
+        <b class="border-b-2 border-black text-lg p-4 mt-5 " id="presence">Développer la présence en ligne de l’organisation</b>
+        <section class="flex flex-row flex-wrap justify-center gap-4 pt-6 ">
+            <div class="basis-2/6">
+                <img class="" src="img/annee1/agenda_github.png">
+                <p>Traiter des demandes concernant les applications</p>
+                <p>Projet Agenda</p>
+            </div>
+            <div class="basis-2/6">
+                <img class="" src="img/annee1/arcachon_recommandation.png">
+                <p>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte
+                    du cadre juridique et des enjeux économiques</p>
+                <p>Projet Arcachon</p>
+            </div>
+        </section>
+
+        <b class="border-b-2 border-black text-lg p-4 mt-5 "id="projet">Travailler en mode projet</b>
+        <section class="flex flex-row flex-wrap justify-center gap-4 pt-6 ">
+            <div class="basis-4/6">
+                <img class="" src="img/annee1/trello_agenda.png">
+                <p>Planifier les activités</p>
+                <p>Projet Agenda</p>
+            </div>
+        </section>
+
+        <b class="border-b-2 border-black text-lg p-4 mt-5 "id="disposition">Mettre à disposition des utilisateurs un service
+            informatique</b>
+        <section class="flex flex-row flex-wrap justify-center gap-4 pt-6 ">
+            <div class="basis-2/6">
+                <img class="" src="img/annee1/gab_python.png">
+                <p>Déployer un service</p>
+                <p>Projet Base de données avec Python</p>
+            </div>
+            <div class="basis-2/6">
+                <img class="" src="img/annee2/deploiment-porfolio.png">
+                <p>Déployer un service</p>
+                <p>Portfolio</p>
+            </div>
+            <div class="basis-3/6">
+                <img class="" src="img/annee1/test_unitaire.png">
+                <p>Réaliser les tests d’intégration et d’acceptation d’un service</p>
+                <p>Stage chez Adeo | 2002/2023</p>
+            </div>
+        </section>
+
+        <b class="border-b-2 border-black text-lg p-4 mt-5 " id="developpement" >Organiser son développement professionnel</b>
+        <section class="flex flex-row flex-wrap justify-center gap-4 pt-6 mb-24">
+            <div class="basis-2/6">
+                <img class="" src="img/linkedin1.png">
+                <p>Gérer son identité professionnelle</p>
+                <p>Profil linkedin</p>
+            </div>
+            <div class="basis-2/6">
+                <img class="" src="img/linkedin2.png">
+                <p>Gérer son identité professionnelle</p>
+                <p>Post linkedin</p>
+            </div>
+            <div class="basis-3/6">
+                <img class="" src="img/annee1/test-unit-doc.png">
+                <p>Mettre en place son environnement d’apprentissage personnel</p>
+                <p>Stage chez Adeo | 2002/2023</p>
+            </div>
+        </section>
+{% endblock %}

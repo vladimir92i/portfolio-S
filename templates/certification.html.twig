@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <div class="container flex justify-center items-center pt-24 pb-20 w-full m-auto">
+        {% for certification in certifications %}
+            <div class="flex flex-col text-center">
+                <p>{{certification.name}}</p>
+                <img class="h-108 w-108 m-auto" src={{"img/certif/"~certification.imageSource}}>
+                <p>{{certification.descriptif}}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

@@ -1,0 +1,20 @@
+aide
+bouton ->
+certification
+projet extrascolaire 
+
+->
+6 competences sur tout ce qu'on a fait en premiere année
++ description pour si en cours de formation ou en stage (milieu professionnel)
+mettre une photo
+attestation de stage
+
+question : on doit mettre un lien pour montrer notre excel genre google drive avec une photo un truc ou un screen
+
+et si on met les boutons, on affiche que les travaux qu'on a fait en premiere année avec une description + les points complétés 
+
+
+-> pour la presentation : 
+PowerPoint.
+
+

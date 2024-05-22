@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+{% block body %}
+    <div class="flex gap-4 justify-center items-center pt-11">
+        <p>Lien rapide -></p>
+        <a href="#excel"><u>Excel</u></a>
+        <a href="#convention1"><u>convention de 2023</u></a>
+        <a href="#convention2"><u>convention de 2024</u></a>
+    </div>
+    <section class="flex flex-col justify-center items-center pt-11" id="excel">
+        <b class="border-b-2 border-black p-4 mb-4" >Mon Excel</b>
+        <img src="img/excel1.png">
+        <img src="img/excel1.5.png">
+        <img src="img/excel2.png" alt="">
+        <a class=" pt-4 text-blue-500" href="./document/portfolio.xlsx" download="portfolio.xlsx">Cliquez ici pour telecharger le
+            excel</a>
+    </section>
+
+    <section class="flex flex-col justify-center items-center pt-11  mb-24" id="convention1">
+        <b class="border-b-2 border-black p-4 mb-4" >Attestation de stage 1e année</b>
+        <img src="img/annee1/Attestation_stage1.png" alt="">
+    </section>
+
+    <section class="flex flex-col justify-center items-center pt-11 mb-24" id="convention2">
+        <b class="border-b-2 border-black p-4 mb-4" >Attestation de stage 2e année</b>
+        <img src="img/annee2/Attestation_stage.png" alt="">
+    </section>
+{% endblock %}
+

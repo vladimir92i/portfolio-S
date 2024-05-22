@@ -1,0 +1,62 @@
+[
+    {
+        "name":"Projet Agenda",
+        "realisationDate":"06/07/2023",
+        "competences": [
+            "Développer la présence en ligne de l’organisation",
+            "Travailler en mode projet",
+            "Organiser son développement professionnel"
+        ],
+        "imageSources": [
+            "img/annee1/projet-agenda/github.png",
+            "img/annee1/projet-agenda/BDD.png",
+            "img/annee1/projet-agenda/ajout_event_agenda.png"
+        ],
+        "descriptif":"Projet de fin de première année. Fait en php, html, css et utilisation d'une base de données mysql"
+    },
+    {
+        "name":"Projet bridge",
+        "realisationDate": "",
+        "competences": [
+        ],
+        "imageSources": [
+        ],
+        "descriptif":"Premier site en html et css fait en cours. Apprentissage des syntaxes."
+    },
+    {
+        "name":"",
+        "realisationDate": "",
+        "competences": [
+        ],
+        "imageSources": [
+        ],
+        "descriptif":""
+    },
+    {
+        "name":"",
+        "realisationDate": "",
+        "competences": [
+        ],
+        "imageSources": [
+        ],
+        "descriptif":""
+    },
+    {
+        "name":"",
+        "realisationDate": "",
+        "competences": [
+        ],
+        "imageSources": [
+        ],
+        "descriptif":""
+    },
+    {
+        "name":"",
+        "realisationDate": "",
+        "competences": [
+        ],
+        "imageSources": [
+        ],
+        "descriptif":""
+    }
+]

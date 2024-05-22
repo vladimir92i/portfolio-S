@@ -1,0 +1,21 @@
+Portfolio : 
+
+Competences : 
+- patrimoine informatique ( gerer les infos d'une BDD,utiliser de la documentation trouvé sur internet):
+
+- Repondre aux incidents aux demandes d'assistance(pull request, Traiter des demandes de form):
+
+- Developper la presence en ligne de l'org(valorisation de l'image de l'org, dev un site,):
+
+- Travailler en mode projet(planifier activités)
+
+- Mettre a disposition un service informatique(deployer un service, test unitaire,)
+
+- Organiser son dev professionnel(myjobglasses, linkedin, dossier veille informatique):
+
+mettre des boutons pour acceder directement aux competences, augmenter taille des projets
+Mettre les certifs, faire un onglet stage (stage 1e et 2e + attestation), rajouter petite descriptions pour chaque projet
+, mettre en dessous des competences tout ce qu'elles enveloppent
+rajouter un onglet stage, capture d'ecran discord pour certifier les projets,
+
+soutenance le 28mars
